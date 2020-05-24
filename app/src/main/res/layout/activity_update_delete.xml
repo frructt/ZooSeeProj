@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateDeleteActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="2"
+        android:paddingTop="30dp"
+        android:src="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/etname"
+            android:background="@drawable/round_corner"
+            android:textColor="@color/black"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingLeft="20dp"
+            android:inputType="textShortMessage"
+            android:hint="What's Animal?"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/ethobby"
+            android:background="@drawable/round_corner"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingLeft="20dp"
+            android:inputType="textShortMessage"
+            android:hint="What's Descent?"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/etcity"
+            android:background="@drawable/round_corner"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingLeft="20dp"
+            android:inputType="textShortMessage"
+            android:hint="What's Country?"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="4">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_corner"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/btnupdate"
+            android:text="update"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_corner"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:id="@+id/btndelete"
+            android:text="delete"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
